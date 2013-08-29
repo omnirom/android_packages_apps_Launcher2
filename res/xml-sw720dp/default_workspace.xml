@@ -29,12 +29,12 @@
 
     <!-- Middle screen [2] -->
     <appwidget
-        launcher:packageName="com.android.deskclock"
-        launcher:className="com.android.alarmclock.AnalogAppWidgetProvider"
+        launcher:packageName="net.nurik.roman.dashclock"
+        launcher:className="com.google.android.apps.dashclock.WidgetProvider"
         launcher:screen="2"
-        launcher:x="1"
+        launcher:x="0"
         launcher:y="0"
-        launcher:spanX="2"
+        launcher:spanX="4"
         launcher:spanY="2" />
     <favorite
         launcher:packageName="com.android.camera"
